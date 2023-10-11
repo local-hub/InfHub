@@ -6,6 +6,6 @@
 - Discord :
   + Obffical Server : https://discord.gg/JvAHahmKzq
   + Store : https://discord.gg/MNV94hrsu8
-# Credit
+# Inf Hub Create in ZeroTNgaming
 - YayScripter
 - ZeroTNgaming

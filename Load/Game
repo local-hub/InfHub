@@ -1,5 +1,5 @@
 local IdGame = {
-"[Blox Fruit"] = 2753915549,
+["Blox Fruit"] = 2753915549,
 ["Blox Fruit 2"] = 4442272183,
 ["Blox Fruit 3"] = 7449423635,
 }

@@ -1,11 +1,1 @@
-_G.WebhookInput  = "https://discord.com/api/webhooks/1169207777164533770/BBjnX7B8AvylvC63B_DAQGY7k1ZUEglnAKdVqpSWn9igQjylKeHZAvXovBZ4M9lQv7gG"
-           for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
-    local SendHoook = {
-        ["content"] = i.." - "..v,
-}
-local newdata = game:GetService("HttpService"):JSONEncode(SendHoook)
-local head = {["content-type"] = "application/json"}
-WebhookSend = http_request or request or HttpPost
-local Send = {Url = _G.WebhookInput, Body = newdata, Method = "POST", Headers = head}
-WebhookSend(Send)
-end
+

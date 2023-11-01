@@ -1333,7 +1333,7 @@ spawn(function()
         CheckQuest()
         if game.Workspace.Enemies:FindFirstChild(NameMon) then
             for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
-                if v.Name == NameMon and v:FindFirstChild('HumanoidRootPart') and v.Humanoid.Health > 0 then
+                if v.Name == NameMon then
                     pcall(function()
                     repeat task.wait()
                         TP(v.HumanoidRootPart.CFrame * CFrame.new(0,15,15))

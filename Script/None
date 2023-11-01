@@ -1347,15 +1347,15 @@ spawn(function()
                 end
             end
         else
-            TP(Location[1] * CFrame.new(0,30,15))
+            TP(Location[1] * CFrame.new(0,50,15))
             wait(0.3)
-            TP(Location[2] * CFrame.new(0,30,15))
+            TP(Location[2] * CFrame.new(0,50,15))
             wait(0.3)
-            TP(Location[3] * CFrame.new(0,30,15))
+            TP(Location[3] * CFrame.new(0,50,15))
             wait(0.3)
-            TP(Location[4] * CFrame.new(0,30,15))
+            TP(Location[4] * CFrame.new(0,50,15))
             wait(0.3)
-            TP(Location[5] * CFrame.new(0,30,15))
+            TP(Location[5] * CFrame.new(0,50,15))
         end
     end
    end

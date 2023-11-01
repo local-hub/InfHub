@@ -310,11 +310,11 @@ function CheckQuest()
             NameMon = "Prisoner"
             CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -5.00292918e-09, -0.995993316, 1.60817859e-09, 1, -5.16744869e-09, 0.995993316, -2.06384709e-09, -0.0894274712)
             Location = {
-                [1] = CFrame.new(),
-                [2] = CFrame.new(),
-                [3] = CFrame.new(),
-                [4] = CFrame.new(),
-                [5] = CFrame.new(),   
+                [1] = CFrame.new(5268.634765625, 1.994313359260559, 406.8072509765625),
+                [2] = CFrame.new(5268.634765625, 1.994313359260559, 406.8072509765625),
+                [3] = CFrame.new(5268.634765625, 1.994313359260559, 406.8072509765625),
+                [4] = CFrame.new(5268.634765625, 1.994313359260559, 406.8072509765625),
+                [5] = CFrame.new(5268.634765625, 1.994313359260559, 406.8072509765625),   
             }
         elseif Level == 210 or Level <= 249 then
             Mon = "Dangerous Prisoner [Lv. 210]"
@@ -324,11 +324,11 @@ function CheckQuest()
             NameMon = "Dangerous Prisoner"
             CFrameQuest = CFrame.new(5308.93115, 1.65517521, 475.120514, -0.0894274712, -5.00292918e-09, -0.995993316, 1.60817859e-09, 1, -5.16744869e-09, 0.995993316, -2.06384709e-09, -0.0894274712)
             Location = {
-                [1] = CFrame.new(),
-                [2] = CFrame.new(),
-                [3] = CFrame.new(),
-                [4] = CFrame.new(),
-                [5] = CFrame.new(),   
+                [1] = CFrame.new(5543.451171875, 88.6868896484375, 696.1821899414062),
+                [2] = CFrame.new(5543.451171875, 88.6868896484375, 696.1821899414062),
+                [3] = CFrame.new(5543.451171875, 88.6868896484375, 696.1821899414062),
+                [4] = CFrame.new(5543.451171875, 88.6868896484375, 696.1821899414062),
+                [5] = CFrame.new(5543.451171875, 88.6868896484375, 696.1821899414062),   
             }
         elseif Level == 250 or Level <= 274 then
             Mon = "Toga Warrior [Lv. 250]"
@@ -1342,7 +1342,7 @@ spawn(function()
                         if v.Humanoid.Health <= 0 then
                             v:Destroy()
                         end
-                    until v.Humanoid.Health <= 0 or not v.Parent or not env.Kaitun or game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false or Checkenv()
+                    until v.Humanoid.Health <= 0 or not v.Parent or not env.Kaitun or game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == false
                     end)
                 end
             end
